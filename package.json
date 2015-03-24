@@ -1,0 +1,22 @@
+{
+  "name": "tresamigos.pumlc9",
+  "description": "Puml viewer plugin",
+  "version": "0.0.1",
+  "author": "ninjapapa",
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TresAmigosSD/pumlc9.git"
+  },
+  "plugins": {
+    "pumlcommand": {},
+    "pumlviewer": {}
+  },
+  "categories": ["miscellaneous"],
+  "licenses": []
+}

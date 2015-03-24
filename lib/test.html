@@ -1,0 +1,21 @@
+<!doctype html>
+<meta charset="utf-8">
+<script src="require.js"></script>
+
+<textarea id="inflated" cols="64" rows="16">Bob->Alice : hello</textarea>
+<p>
+<button id="submit">Plot it</button>
+<p>
+<div id="inner"></div>
+
+<script id="js">
+  $ = function(id){ return document.getElementById(id) };
+  require(["./puml.js"], function(puml){
+      var div = $("inner");
+      var chart = puml();
+      $("submit").addEventListener("click", function(e){
+        e.preventDefault();
+        chart(div, document.getElementById("inflated").value);
+      }, false);
+  });
+</script>
