@@ -1,7 +1,7 @@
 {
   "name": "tresamigos.pumlc9",
   "description": "Puml viewer plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "ninjapapa",
   "contributors": [
     {
@@ -17,6 +17,8 @@
     "pumlcommand": {},
     "pumlviewer": {}
   },
-  "categories": ["miscellaneous"],
+  "categories": [
+    "miscellaneous"
+  ],
   "licenses": []
 }
